@@ -55,7 +55,7 @@ Deployment done for this project on Heroku and Streamlit share
 
 - Deployment Link for Heroku - [Click here](https://faceemotiondetection-wasim.herokuapp.com/) 
 - Deployment Link for Streamlit Share - [Click here](https://share.streamlit.io/wasimkhan33/face-emotion-detection-using-streamlit/main/app.py)
-- Face emotion recognition using streamlit - [Click here](https://github.com/wasimkhan33/face-emotion-detection-using-streamlit.git)
+- Repo link of Face emotion recognition using streamlit - [Click here](https://github.com/wasimkhan33/face-emotion-detection-using-streamlit.git)
 
 
   
