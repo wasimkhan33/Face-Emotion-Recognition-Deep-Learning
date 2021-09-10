@@ -24,8 +24,7 @@ CNN Model
 Classic NNs are usually composed of several fully connected layers. This means that every node of one layer is connected to all the nodes of the next layer.
 Convolutional Neural Networks also have Convolutional layers that apply sliding functions to groups of pixels that are next to each other. 
 
-
-![](https://github.com/wasimkhan33/Deep-Learning-Capstone-Face-Emotion-Recognition/blob/main/IMG/1-4.png?raw=true)
+![1-4](https://user-images.githubusercontent.com/55997315/132885865-b7274c63-d071-41c1-95f8-7560358b5af5.png)
 
 There are two main parts to a CNN architecture-
 A convolution tool that separates and identifies the various features of the image for analysis in a process called as Feature Extraction
@@ -33,7 +32,7 @@ A fully connected layer that utilizes the output from the convolution process an
 
 This was the model structure. In the output layer there were 7 nodes. This model was used to predict emotion in following ways:
 
-![](https://github.com/wasimkhan33/Deep-Learning-Capstone-Face-Emotion-Recognition/blob/main/IMG/emoji11'.png?raw=true)
+![emoji11'](https://user-images.githubusercontent.com/55997315/132885969-49a46dac-022b-44a3-b65b-67e1ac3452ef.png)
 
 First, the haar cascade method is used to detect faces in each frame of the webcam feed.
 The region of image containing the face is resized to 48x48 and is passed as input to the CNN.
