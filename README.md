@@ -79,13 +79,13 @@ Run project with
 Clone the project
 
 ```bash
-  git clone https://github.com/wasimkhan33/Deep-Learning-Capstone-Face-Emotion-Recognition.git
+  git clone https://github.com/wasimkhan33/Face-Emotion-Recognition-Deep-Learning.git
 ```
 
 Open Anaconda Prompt &
 Go to the project directory
 ```bash
-  cd Deep-Learning-Capstone-Face-Emotion-Recognition
+  cd Face-Emotion-Recognition-Deep-Learning
 ```
 
 Install dependencies
