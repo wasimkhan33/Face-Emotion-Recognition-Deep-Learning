@@ -39,6 +39,7 @@ First, the haar cascade method is used to detect faces in each frame of the webc
 The region of image containing the face is resized to 48x48 and is passed as input to the CNN.
 The network outputs a list of softmax scores for the seven classes of emotions.
 The emotion with maximum score is displayed on the screen.
+
 ## Dependencies
 
 - Python
@@ -48,14 +49,19 @@ The emotion with maximum score is displayed on the screen.
 - Streamlit
 - Streamlit-Webrtc
 
-  
+## Front-end using Streamlit
+
+We have created front-end using Streamlit for webapp and used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to VideoTransformer function to detect the emotion. Then this model was deployed on heroku platform with the help of buildpack-apt which is necessary to deploy opencv model on heroku. But heroku platform only allows model size as 500 mb. And tensorflow 2.0 itself takes 420 mb so we replaced it with tensorflow-cpu. All the other packages used and their version can be found in requirements.txt Our final model was of 435 mb and it was successfully deployed but the live stream itself takes 250-300 mb while loading live-stream or opening the webcam. And hence the webcam was not loading or opening and our model was not giving expected output.
+
+- Repo link of Face emotion recognition using streamlit - [Click here](https://github.com/wasimkhan33/face-emotion-detection-using-streamlit.git)
+ 
 ## Deployment
 
 Deployment done for this project on Heroku and Streamlit share
 
 - Deployment Link for Heroku - [Click here](https://faceemotiondetection-wasim.herokuapp.com/) 
 - Deployment Link for Streamlit Share - [Click here](https://share.streamlit.io/wasimkhan33/face-emotion-detection-using-streamlit/main/app.py)
-- Repo link of Face emotion recognition using streamlit - [Click here](https://github.com/wasimkhan33/face-emotion-detection-using-streamlit.git)
+
 
 
   
@@ -94,7 +100,11 @@ Start local webcam
 ```bash
   python camera.py
 ```
+Start local Webapp (Streamlit Front-end)
 
+```bash
+  streamlit run app.py
+```
   
 ## Demo
 
