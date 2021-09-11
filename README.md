@@ -56,7 +56,7 @@ We have created front-end using Streamlit for webapp and used streamlit-webrtc w
  
 ## Deployment
 
-Deployment done for this project on Heroku and Streamlit share
+Deployment done for this project on Heroku and Streamlit share using Streamlit frontend repo link provided above
 
 - Deployment Link for Heroku - [Click here](https://faceemotiondetection-wasim.herokuapp.com/) 
 - Deployment Link for Streamlit Share - [Click here](https://share.streamlit.io/wasimkhan33/face-emotion-detection-using-streamlit/main/app.py)
@@ -98,11 +98,6 @@ Start local webcam
 
 ```bash
   python camera.py
-```
-Start local Webapp (Streamlit Front-end)
-
-```bash
-  streamlit run app.py
 ```
   
 ## Demo
