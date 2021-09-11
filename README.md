@@ -15,7 +15,7 @@ We will solve the above-mentioned challenge by applying deep learning algorithms
 The data comes from the past Kaggle competition “Challenges in Representation Learning: Facial Expression Recognition Challenge”:
 we have defined the image size to 48 so each image will be reduced to a size of 48x48.The faces have been automatically registered so that the face is more or less centered and occupies about the same amount of space in each image. Each image corresponds to a facial expression in one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral). The dataset contains approximately 36K images.
 
-Dataset link - [Click here](https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset)
+Dataset link - [www.kaggle.com/jonathanoheix/face-expression-recognition-dataset](https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset)
 
 ## Emotion detection Recognition using deep learning
 
@@ -52,14 +52,14 @@ The emotion with maximum score is displayed on the screen.
 
 We have created front-end using Streamlit for webapp and used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to VideoTransformer function to detect the emotion. Then this model was deployed on heroku platform with the help of buildpack-apt which is necessary to deploy opencv model on heroku. But heroku platform only allows model size as 500 mb. And tensorflow 2.0 itself takes 420 mb so we replaced it with tensorflow-cpu. All the other packages used and their version can be found in requirements.txt Our final model was of 435 mb and it was successfully deployed but the live stream itself takes 250-300 mb while loading live-stream or opening the webcam. And hence the webcam was not loading or opening and our model was not giving expected output.
 
-- Repo link of Face emotion recognition using streamlit - [Click here](https://github.com/wasimkhan33/face-emotion-detection-using-streamlit.git)
+- Repo link of Face emotion recognition using streamlit - [https://github.com/wasimkhan33/Face-Emotion-Recognition-Streamlit.git](https://github.com/wasimkhan33/Face-Emotion-Recognition-Streamlit.git)
  
 ## Deployment
 
 Deployment done for this project on Heroku and Streamlit share using Streamlit frontend repo link provided above
 
-- Deployment Link for Heroku - [Click here](https://faceemotiondetection-wasim.herokuapp.com/) 
-- Deployment Link for Streamlit Share - [Click here](https://share.streamlit.io/wasimkhan33/face-emotion-detection-using-streamlit/main/app.py)
+- Deployment Link for Heroku - [https://faceemotiondetection-wasim.herokuapp.com/](https://faceemotiondetection-wasim.herokuapp.com/) 
+- Deployment Link for Streamlit Share - [https://share.streamlit.io/wasimkhan33/face-emotion-detection-using-streamlit/main/app.py](https://share.streamlit.io/wasimkhan33/face-emotion-detection-using-streamlit/main/app.py)
 
 
 
@@ -107,6 +107,6 @@ Start local webcam
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/waseem3378/)
-[![twitter](https://img.shields.io/badge/github-211F1F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wasimkhan33)
+[![github](https://img.shields.io/badge/github-211F1F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wasimkhan33)
 
   
