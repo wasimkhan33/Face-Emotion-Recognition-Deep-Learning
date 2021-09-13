@@ -1,4 +1,4 @@
-# FACE-EMOTION-RECOGNITION
+# Live Class Monitoring System(Face Emotion Recognition using Deep Learning) 
 
 ## Author
 
