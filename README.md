@@ -52,7 +52,9 @@ The emotion with maximum score is displayed on the screen.
 
 We have created front-end using Streamlit for webapp and used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to VideoTransformer function to detect the emotion. Then this model was deployed on heroku platform with the help of buildpack-apt which is necessary to deploy opencv model on heroku. But heroku platform only allows model size as 500 mb. And tensorflow 2.0 itself takes 420 mb so we replaced it with tensorflow-cpu. All the other packages used and their version can be found in requirements.txt Our final model was of 435 mb and it was successfully deployed but the live stream itself takes 250-300 mb while loading live-stream or opening the webcam. And hence the webcam was not loading or opening and our model was not giving expected output.
 
-- Repo link of Face emotion recognition using streamlit - [https://github.com/wasimkhan33/Face-Emotion-Recognition-Streamlit.git](https://github.com/wasimkhan33/Face-Emotion-Recognition-Streamlit.git)
+Due to size concern we use less size model(model.h5) which was stopped early nearly at 25-30 epochs and gives us the accuracy of 60-65%. And the model is performing well.
+
+- Repo link of Face Emotion Recognition with streamlit - [https://github.com/wasimkhan33/Face-Emotion-Recognition-Streamlit.git](https://github.com/wasimkhan33/Face-Emotion-Recognition-Streamlit.git)
  
 ## Deployment
 
